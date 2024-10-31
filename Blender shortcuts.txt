@@ -1,0 +1,67 @@
+General --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Mouse3 - Rotate view
+Shift + Mouse3 - Pan view
+Ctrl + Mouse3 - Smooth zoom
+Scroll - Zoom
+~ + View Selected - Pan to selected object
+
+0 - Camera view
+5 - Change perspective
+9 - Opposite view
+
+Shift + Mouse1 - Select multiple things
+
+Tab - Switch between Object Mode and Edit Mode
+
+Render - Renderuje scenu iz perspektive kamere
+
+Move camera viewport while in camera view
+	Select camera -> N -> View tab -> Check "Camera to View" -> Move camera like you would move view in editor -> Find desired position -> Uncheck "Camera to View"
+
+Modifiers --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Select object -> Modifiers -> Add Modifier - Adding modifiers to objects
+
+Generate -> Subdivision Surface - Alters object's surface resolution
+Generate -> Solidify - Add thickness to object
+
+Modifier -> Down arrow -> Apply - Applies the modifier to the object and removes the modifier
+
+Object Mode --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+G - Move (grab) selected object
+G ~ X,Y,Z - Move selected object along selected axis
+G ~ Mouse3 - Select axis to move selected object
+
+R - Rotate selected object
+R ~ X,Y,Z - Rotate selected object along selected axis
+R ~ Mouse3 - Select axis to rotate selected object
+
+S - Scale selected object
+S ~ X,Y,Z - Scale selected object along selected axis
+S ~ Mouse3 - Select axis to scale selected object
+
+Shift + D - Duplicate selected object
+Shift + A - Open add object menu
+
+Mouse2 -> Shade smooth - Make selected object render with smooth surface
+
+F9 - Show selected object options (only works immediately after adding the object into the scene)
+
+Edit Mode --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+E - Extrude selected part of mesh
+E ~ Mouse3 - Select axis to extrude selected part of mesh
+
+Alt + Mouse1 on edge - Select ring of edges
+Ctrl + +/- - Select/deselect another ring of edges in a row
+
+O (Proportional Editing) - The change to one vertex affects the nearby vertices too, propottionaly so
+H - Hide selected part of mesh
+Alt + H - Show hidden parts of mesh
+
+Shift + Tab (Snap) - Moved vertices will snap to what is selected
+Snap -> Down arrow - Snap settings
+
+Alt + Z (Toggle X-Ray) - Enable selection of vertices at the back of an object
